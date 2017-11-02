@@ -2,14 +2,17 @@ import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 
 import styles from './Home.style';
+import BottomNavBar from '../BottomNavBar/BottomNavBar';
 
 export default class Home extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <View style={styles.containerHome}>
+          <Text style={styles.logo}>Logo Aqui</Text>
+          <Text>Igreja React Native Firebase App ;)</Text>
+        </View>
+        <BottomNavBar/>
       </View>
     );
   }
