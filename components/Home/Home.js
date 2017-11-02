@@ -10,7 +10,7 @@ export default class Home extends Component {
       <View style={styles.container}>
         <View style={styles.containerHome}>
           <Text style={styles.logo}>Logo Aqui</Text>
-          <Text>Igreja React Native Firebase App ;)</Text>
+          <Text>IPB React Native Firebase App ;)</Text>
         </View>
         <BottomNavBar/>
       </View>
